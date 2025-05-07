@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+body{
+  background-color: black;
+}
+
+@layer components{
+  .text-color{
+    @apply text-gray-300 font-medium
+  }
+}
